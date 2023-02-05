@@ -1,8 +1,8 @@
 login:
- url:
-  path: /users/login
+  url:
+    path: /users/login
 
-albums:
+api-albums:
   url: http://albums-ws/users/%s/albums
 
 #10 days
@@ -10,4 +10,4 @@ jwt:
   token:
     expiration:
       time.ms: 764000000
-    secret: {cipher}AQB6djI/PfxF62+eX9l0TxfluWq3KNy+jIK6eYSo6QhJHnBLHAD4XjJz+KA5/69chD28Fe53rERmjk0Rv+IQGwWzboD5ZlV2K9Ti/LIPHdilklkFV4viRDGehD39GYfpv0hbtWojuVW+hylwFDtZIUgWSUgATU8C0GcwgbqAORQJN/M2C2v0L18x1bk8ysrcJMIzQM0TovXv6EMhrr2T/hEkKDoIF3eyxyMgAxbZmG8bNcjcPrFfsD9O7Np0SGacbCUR+wlMFZPiHJCxa1aYXTGRjQpxs/tqMcOHAmFgJ+mbMjGZV28iJNXcsDfLJarJ+WdknxRnmYjUAA19lJhreR20FTiZorcYk1yus/mr7z6VfkeGbOLzAP2HwCiFCNCY65A=
+    secret: '{cipher}AQB6djI/PfxF62+eX9l0TxfluWq3KNy+jIK6eYSo6QhJHnBLHAD4XjJz+KA5/69chD28Fe53rERmjk0Rv+IQGwWzboD5ZlV2K9Ti/LIPHdilklkFV4viRDGehD39GYfpv0hbtWojuVW+hylwFDtZIUgWSUgATU8C0GcwgbqAORQJN/M2C2v0L18x1bk8ysrcJMIzQM0TovXv6EMhrr2T/hEkKDoIF3eyxyMgAxbZmG8bNcjcPrFfsD9O7Np0SGacbCUR+wlMFZPiHJCxa1aYXTGRjQpxs/tqMcOHAmFgJ+mbMjGZV28iJNXcsDfLJarJ+WdknxRnmYjUAA19lJhreR20FTiZorcYk1yus/mr7z6VfkeGbOLzAP2HwCiFCNCY65A='
