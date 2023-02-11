@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/photoapp
+    username: photorobot
+    password: '{cipher}AQC0r+LdLyl43xXTgTM7g94D5SkuzS9RgjYGdW09ESfxsl7h+ii11RX3cLiKNhRCwymCsCas9tYXZ3F52OdaABrKsvvUA3IKvUw7c0tqhy9uNbT76peKxOJvjf+PsBqQQZ0M+9039uALJWDyAa5C3XD8lCUWJKFq9JaJrcm+VJBte0V4Hn5e0KyCRUooA+ZfpMD9hsRLoRGABl3k7LyIfaSPl0iFcHaz5iIQxHGktERBx9DdHwk2X2RlKKuwskUQtaC0ueitSTp1GgVSrEhA/6NKWfagrdlNW1gUcUWoR4ff6YqtE6RAG9oH85MjwXxw2znOVNMPNfvIixAJZsSqS/yT9JKkaLIXpLv/laGu9zbo1ZnWRvxSyBmRuLVqiOu7Is4='

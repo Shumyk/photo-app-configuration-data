@@ -1,7 +1,3 @@
-login:
-  url:
-    path: /users/login
-
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/photoapp
