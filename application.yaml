@@ -2,6 +2,10 @@ login:
   url:
     path: /users/login
 
+photoapp:
+  eureka:
+    url: 172.31.46.82:8010
+
 api-albums:
   url: http://albums-ws/users/%s/albums
   exception:
