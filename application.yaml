@@ -6,6 +6,10 @@ photoapp:
   eureka:
     url: 172.31.46.82:8010
 
+spring:
+  rabbitmq:
+    host: 172.17.0.2
+
 api-albums:
   url: http://albums-ws/users/%s/albums
   exception:
@@ -21,4 +25,4 @@ eureka:
   password: '{cipher}AQB0NxFBgQTkd+OMAdXhyqA0wiPrUgB3ZhoiDwMmo//X6jcuwA7vUdBpOW7BWjDKmkzZRMl0XEXQM1mO2rKG1B1OmqMJJz1H/anqrue849uFL3c7C84JuYLTjyd4ON2jH5lwTnI1G9636oi92kwzCqpyXWcBXW8fTiR6nEkMyZ7zMBfZ4Opuz/05i+bw8mapjxiUxrPtJBG6DJRrXeRACuLgc66k5zzYildtv9/MwG7u013TxICs2xFjnoPuo4BlQNcyGFCMbPIK1ArjJ9+YZN4cK8yUNQYyKLwMbuh+ras5scoC7tAy7cgRvECQJd5sJmmcgfO7IoR6dAt1XGLuidj717yGu6X9kR+wTh7PiZ8vm6+X90NgIWWpy1C1dU+ucdg='
   client:
     service-url:
-      defaultZone: http://robot:${eureka.password}@localhost:8010/eureka
+      defaultZone: http://robot:${eureka.password}@${photoapp.eureka.url}/eureka
