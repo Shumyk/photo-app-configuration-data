@@ -8,7 +8,7 @@ photoapp:
 
 spring:
   rabbitmq:
-    host: 172.17.0.2
+    host: 172.31.39.206
 
 api-albums:
   url: http://albums-ws/users/%s/albums
